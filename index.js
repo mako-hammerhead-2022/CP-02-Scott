@@ -1,3 +1,7 @@
 const cowsay = require('cowsay')
 
-console.log(cowsay.say({ hello }))
+const text = cowsay.say({ text: 'hello' })
+console.log(text)
+
+const think = cowsay.think({ text: 'hmmm' })
+console.log(think)
